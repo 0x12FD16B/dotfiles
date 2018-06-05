@@ -283,7 +283,7 @@ The following will only happen if you agree on the prompt
 - Hide tab title bars
 - Set system-wide hotkey to show/hide iterm with ctrl+tick ( `^` + `)
 - Set normal font to Hack 12pt
-- Set non-ascii font to Roboto Mono for Powerline 12pt
+- Set non-ascii font to Source Code Pro 12pt
 
 ## Time Machine
 - Prevent Time Machine from prompting to use new hard drives as backup volume
