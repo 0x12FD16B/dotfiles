@@ -134,7 +134,6 @@ Here is the current list:
 
 ## Prompt Driven Configuration
 The following will only happen if you agree on the prompt
-- install a gitshots script to take a photo using your camera on every git commit (these go in as a post-commit hook to your .git_template)
 - overwrite your /etc/hosts file with a copy from someonewhocares.org (see ./configs/hosts for the file that will be used)
 - replace the system wallpaper with `img/wallpaper.jpg`
 
