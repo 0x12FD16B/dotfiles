@@ -334,8 +334,6 @@ The following is the software that I have set as default:
 * gnu-sed
 * homebrew/dupes/grep
 * httpie
-* imagemagick (only if gitshots enabled)
-* imagesnap (only if gitshots enabled)
 * jq
 * mas
 * moreutils
