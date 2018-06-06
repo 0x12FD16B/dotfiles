@@ -279,6 +279,9 @@ bot "installing packages from config.js..."
 node index.js
 ok
 
+bot "installing tldr, a useful command-line tools..."
+npm install -g tldr
+
 running "cleanup homebrew"
 brew cleanup > /dev/null 2>&1
 ok
