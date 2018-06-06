@@ -1,4 +1,4 @@
-[![Beerpay](logo-stoke.svg)](https://beerpay.io/atomantic/dotfiles)
+[<img src="logo-stoke.svg" with="64" height="64" />](https://beerpay.io/atomantic/dotfiles)
 
 # \\[._.]/ - Hi, I'm the MacOS bot
 
