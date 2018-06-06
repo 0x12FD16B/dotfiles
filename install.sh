@@ -279,8 +279,11 @@ bot "installing packages from config.js..."
 node index.js
 ok
 
-bot "installing tldr, a useful command-line tools..."
+bot "installing tldr, a useful command-line tool..."
 npm install -g tldr
+
+bot "installing commitizen, a git changelog tool, official site: https://github.com/commitizen/cz-cli"
+npm install -g commitizen
 
 running "cleanup homebrew"
 brew cleanup > /dev/null 2>&1
