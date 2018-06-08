@@ -187,7 +187,7 @@
 
 [push]
   default = matching
-	followTags = true
+  followTags = true
 
 [filter "media"]
   required = true
