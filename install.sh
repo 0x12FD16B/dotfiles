@@ -312,6 +312,14 @@ require_brew gradle
 bot "installing golang..."
 require_brew go
 
+# install sublime text
+bot "installing sublime text..."
+require_cask sublime-text
+
+# config sublime text
+bot "config sublime text..."
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+
 running "cleanup homebrew"
 brew cleanup > /dev/null 2>&1
 ok
