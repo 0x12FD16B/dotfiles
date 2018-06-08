@@ -285,6 +285,33 @@ npm install -g tldr
 bot "installing commitizen, a git changelog tool, official site: https://github.com/commitizen/cz-cli"
 npm install -g commitizen
 
+#####################################
+# Install coding  environments
+#####################################
+# install mysql database
+bot "installing mysql database..."
+require_brew mysql
+
+# intall latest jdk
+bot "installing latest java..."
+require_cask java
+
+# install jdk 1.8
+bot "installing java8..."
+require_cask java8
+
+# install apache maven
+bot "installing apache maven..."
+require_brew maven
+
+# install gradle
+bot "installing gradle..."
+require_brew gradle
+
+# install go
+bot "installing golang..."
+require_brew go
+
 running "cleanup homebrew"
 brew cleanup > /dev/null 2>&1
 ok
