@@ -320,6 +320,10 @@ require_cask sublime-text
 bot "config sublime text..."
 ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 
+# install alfred
+bot "install alfred..."
+require_cask alfred
+
 running "cleanup homebrew"
 brew cleanup > /dev/null 2>&1
 ok
